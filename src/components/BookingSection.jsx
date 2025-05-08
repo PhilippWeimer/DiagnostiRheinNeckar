@@ -24,10 +24,9 @@ const BookingSection = () => {
     
             {/* Rechte Seite: Acuity Scheduling iFrame */}
             <div className="md:w-1/2 mt-8 md:mt-0 bg-white p-6 shadow-lg rounded-lg w-full">
-              <iframe 
-                src="https://app.acuityscheduling.com/schedule/2af9a4e0/appointment/75685517/calendar/11734293" 
-                className="w-full h-[500px] border-0">
-              </iframe>
+            <iframe 
+              src="https://app.acuityscheduling.com/schedule.php?owner=35701147&ref=embedded_csp" 
+              className="w-full h-[800px] border-0"></iframe>
               <p className="text-gray-500 text-sm text-center mt-2">
                 Powered by <strong>acuity:scheduling</strong>
               </p>
